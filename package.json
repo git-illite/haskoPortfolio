@@ -20,6 +20,7 @@
   "homepage": "https://github.com/git-illite/haskoPortfolio#readme",
   "description": "",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.0.0",
     "bootstrap": "^5.3.7",
     "sass": "^1.90.0"
   }

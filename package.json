@@ -1,0 +1,26 @@
+{
+  "name": "haskoportfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/git-illite/haskoPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/git-illite/haskoPortfolio/issues"
+  },
+  "homepage": "https://github.com/git-illite/haskoPortfolio#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "sass": "^1.90.0"
+  }
+}

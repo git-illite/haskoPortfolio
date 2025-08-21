@@ -1,5 +1,26 @@
-$primary: #333;
+$primary: #ff6b61; // rgb(255, 255, 255)
+$secondary: #fdf0e6; // rgb(234, 234, 238)
+$success: #0b0d63; // rgb(11, 13, 99)
+$info: #8eb6dc; // rgb(142, 182, 220)
+$dark: #000000; // rgb(0, 0, 0)
 
-body{
-    background-color: $primary;
+.navbar .btn-outline-light:hover {
+  color: var(--bs-dark);
 }
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.whatido {
+  padding: 80px;
+}
+
+// body {
+//   background-color: $tertiary;
+// }

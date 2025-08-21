@@ -1,22 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/fontawesome.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Hasko Portfolio</title>
-</head>
-<body>
-    <h1 class="text-primary">
-       
-        Hasko Portfolio
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="images/logo.png" alt="" width="175" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link fw-semibold">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#details" class="nav-link fw-semibold">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link fw-semibold">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link fw-semibold">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    </h1>
-    <button class="btn btn-primary">Submit</button>
+    <!-- Header -->
+    <header class="header bg-success">
+      <!-- Hero -->
+      <div class="hero text-white pt-7">
+        <div class="container-xl">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="image-container mb-5 px-4">
+                <img src="images/header.webp" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="text-container p-4 d-flex flex-column justify-content-center h-100 mb-5"
+              >
+                <h1 class="display-4 fw-bold">
+                  You run the business. I’ll handle the words.
+                </h1>
+                <p class="lead">
+                  Clear, practical writing for businesses and the people who
+                  matter to them.
+                </p>
+                <div class="mx-auto">
+                  <button class="btn btn-primary btn-md text-white text-large">
+                    SEE THE SERVICES
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg
+        class="frame-decoration"
+        data-name="Layer 2"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        viewBox="0 0 1920 192.275"
+      >
+        <defs>
+          <style>
+            .cls-1 {
+              fill: #f8f9fa;
+            }
+          </style>
+        </defs>
+        <title>frame-decoration</title>
+        <path
+          class="cls-1"
+          d="M0,158.755s63.9,52.163,179.472,50.736c121.494-1.5,185.839-49.738,305.984-49.733,109.21,0,181.491,51.733,300.537,50.233,123.941-1.562,225.214-50.126,390.43-50.374,123.821-.185,353.982,58.374,458.976,56.373,217.907-4.153,284.6-57.236,284.6-57.236V351.03H0V158.755Z"
+          transform="translate(0 -158.755)"
+        />
+      </svg>
+    </header>
+
+    <!-- Icons -->
+    <section class="icons bg-light pb-5">
+      <div class="container-xl">
+        <div class="row hstack g-4">
+          <div class="col-md-4 d-flex gap-4">
+            <i class="fas fa-solid fa-globe fa-3x text-primary"></i>
+            <div>
+              <h5 class="fw-bold">Website Writing</h5>
+              <p class="text-muted">
+                Clear, confident messaging that reflects your business and
+                connects with your customers.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex gap-4">
+            <i class="fas fa-solid fa-comments fa-3x text-primary"></i>
+            <div>
+              <h5 class="fw-bold">Messaging & Brand Voice</h5>
+              <p class="text-muted">
+                Words that sound like you. Consistent across everything you say.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex gap-4">
+            <i class="fas fa-newspaper fa-3x text-primary"></i>
+            <div>
+              <h5 class="fw-bold">Sales & Marketing Materials</h5>
+              <p class="text-muted">
+                Flyers, one-pagers, emails, menus. If your customers read it, I
+                can write it.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row hstack g-4 py-5">
+          <div class="col-md-4 d-flex gap-4">
+            <i class="fas fa-share fa-3x text-primary"></i>
+            <div>
+              <h5 class="fw-bold">Social Media</h5>
+              <p class="text-muted">
+                Share your message in a way that fits both the online platform
+                and your business.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex gap-4">
+            <i class="fas fa-pen-to-square fa-3x text-primary"></i>
+            <div>
+              <h5 class="fw-bold">Custom Requests</h5>
+              <p class="text-muted">
+                Not sure what you need yet? Let’s talk and figure it out
+                together.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex gap-4">
+            <i class="fas fa-dollar fa-3x text-primary"></i>
+            <div>
+              <h5 class="fw-bold">Custom Requests</h5>
+              <p class="text-muted">
+                Not sure what you need yet? Let’s talk and figure it out
+                together.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="whatido" class="whatido bg-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              class="text-container d-flex flex-column justify-content-center h-100"
+            >
+              <h2 class="display-5">What I DO</h2>
+              <p>
+                <strong>Connecting you to your clients. </strong><br />I
+                motivate people to take action. That’s the main purpose of my
+                writing. Whether it’s signing up for your newsletter, buying
+                your product, booking a service, or simply sticking around to
+                hear more, the goal is always the same: get your message across
+                in a way that works. <br />
+                When the right words meet the right people, they act. That’s
+                where I come in.
+              </p>
+              <a
+                class="btn btn-primary text-white mt-4 align-self-start"
+                data-bs-toggle="modal"
+                data-bs-target="modal1"
+              >
+                SEE SERVICES</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="image-container p-5">
+              <img src="images/whatIdo.webp" alt="" class="src" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>

@@ -21,6 +21,6 @@ $dark: #000000; // rgb(0, 0, 0)
   padding: 80px;
 }
 
-// body {
-//   background-color: $tertiary;
-// }
+.modal-dialog {
+  max-width: 1040px;
+}

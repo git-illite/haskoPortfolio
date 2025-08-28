@@ -24,3 +24,12 @@ $dark: #000000; // rgb(0, 0, 0)
 .modal-dialog {
   max-width: 1040px;
 }
+.profile-img {
+  width: 250px;
+  height: 250px;
+
+  @include media-breakpoint-down(sm) {
+    width: 100px;
+    height: 100px;
+  }
+}
